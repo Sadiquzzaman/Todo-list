@@ -1,0 +1,20 @@
+{
+    "name": "Vue",
+    "version": "2.6.11",
+    "description": "Vue Project",
+    "scripts": {
+        "lite": "lite-server -port 10001",
+        "start": "npm run lite"
+    },
+    "browser": {
+        "vue": "vue/dist/vue.common.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "lite-server": "2.5.4"
+    },
+    "dependencies": {
+        "vue": "^2.6.12"
+    }
+}
